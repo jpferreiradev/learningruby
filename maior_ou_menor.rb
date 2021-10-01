@@ -1,29 +1,30 @@
 puts "Bem vindo ao jogo da adivinhação"
-
 puts "Qual é o seu nome?"
-nome = gets  
-#puts "Qual é o seu sobrenome?"
-#sobrenome = gets
-#puts "Qual é a sua idade?"
-#idade = gets
+nome = gets 
 
-#puts "O seu nome completo é :" + nome + sobrenome + "e a sua idade é: " + idade + "anos"
-
-puts "Começaremos o jogo para você," + nome
+puts
+puts
+puts
+puts
+puts
+puts "Começaremos o jogo pra você, " + nome 
 
 puts "Escolhendo um número secreto entre 0 e 200..." 
-numero_secreto = 175 
-puts "Escolhido...que tal adivinhare hoje o nosso número secreto?"
+numero_secreto = 175
+puts "Escolhido... que tal adivinhar hoje nosso número secreto?"
 
 puts
-puts 
 puts
-puts 
-
+puts
+puts
 puts "Tentativa 1"
-puts "Entre com o numero"
-
+puts "Entre com o número"
 chute = gets
-
-puts "Será que acertou? Você chutou " + chute   
+puts " Será que acertou? Você chutou " + chute 
 puts chute.to_i == numero_secreto
+
+
+
+
+
+
