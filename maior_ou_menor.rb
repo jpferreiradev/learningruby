@@ -1,13 +1,14 @@
 puts "Bem vindo ao jogo da adivinhação"
 puts "Qual é o seu nome?"
 nome = gets 
-a
+
 puts "\n\n\n\n"
 puts "Começaremos o jogo pra você, " + nome 
 
 puts "Escolhendo um número secreto entre 0 e 200..." 
 numero_secreto = 175
 puts "Escolhido... que tal adivinhar hoje nosso número secreto?"
+
 
 puts "\n\n\n"
 puts "Tentativa 1"
